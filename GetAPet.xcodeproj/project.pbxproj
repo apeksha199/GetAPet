@@ -16,7 +16,18 @@
 		D0D461DD251F626E004AD6F6 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D461DC251F626E004AD6F6 /* Pet.swift */; };
 		D0D461E0251F6B02004AD6F6 /* PetExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D461DF251F6B02004AD6F6 /* PetExplorerViewController.swift */; };
 		D0D461E32523C9C8004AD6F6 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D461E22523C9C8004AD6F6 /* PetDetailViewController.swift */; };
+		ED60E96E26BC88F5002FDBAF /* GetAPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED60E97026BC88F5002FDBAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 185CB1F023C78CE6009F7571 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 185CB1F723C78CE6009F7571;
+			remoteInfo = GetAPet;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		180DC61423C78D9800486B1A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,10 +41,20 @@
 		D0D461DC251F626E004AD6F6 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		D0D461DF251F6B02004AD6F6 /* PetExplorerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetExplorerViewController.swift; sourceTree = "<group>"; };
 		D0D461E22523C9C8004AD6F6 /* PetDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
+		ED60E96B26BC88F5002FDBAF /* GetAPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetAPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAPetUITests.swift; sourceTree = "<group>"; };
+		ED60E96F26BC88F5002FDBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		185CB1F523C78CE6009F7571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED60E96826BC88F5002FDBAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				185CB1FA23C78CE6009F7571 /* GetAPet */,
+				ED60E96C26BC88F5002FDBAF /* GetAPetUITests */,
 				185CB1F923C78CE6009F7571 /* Products */,
 			);
 			indentWidth = 2;
@@ -57,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				185CB1F823C78CE6009F7571 /* GetAPet.app */,
+				ED60E96B26BC88F5002FDBAF /* GetAPetUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +99,15 @@
 				185CB20923C78CE8009F7571 /* Info.plist */,
 			);
 			path = GetAPet;
+			sourceTree = "<group>";
+		};
+		ED60E96C26BC88F5002FDBAF /* GetAPetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */,
+				ED60E96F26BC88F5002FDBAF /* Info.plist */,
+			);
+			path = GetAPetUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,18 +131,40 @@
 			productReference = 185CB1F823C78CE6009F7571 /* GetAPet.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ED60E96A26BC88F5002FDBAF /* GetAPetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED60E97426BC88F5002FDBAF /* Build configuration list for PBXNativeTarget "GetAPetUITests" */;
+			buildPhases = (
+				ED60E96726BC88F5002FDBAF /* Sources */,
+				ED60E96826BC88F5002FDBAF /* Frameworks */,
+				ED60E96926BC88F5002FDBAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED60E97126BC88F5002FDBAF /* PBXTargetDependency */,
+			);
+			name = GetAPetUITests;
+			productName = GetAPetUITests;
+			productReference = ED60E96B26BC88F5002FDBAF /* GetAPetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		185CB1F023C78CE6009F7571 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1130;
+				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Ray Wenderlich";
 				TargetAttributes = {
 					185CB1F723C78CE6009F7571 = {
 						CreatedOnToolsVersion = 11.3;
+					};
+					ED60E96A26BC88F5002FDBAF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 185CB1F723C78CE6009F7571;
 					};
 				};
 			};
@@ -128,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				185CB1F723C78CE6009F7571 /* GetAPet */,
+				ED60E96A26BC88F5002FDBAF /* GetAPetUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -140,6 +195,13 @@
 				180DC61523C78D9800486B1A /* LaunchScreen.storyboard in Resources */,
 				185CB20523C78CE8009F7571 /* Assets.xcassets in Resources */,
 				185CB20323C78CE6009F7571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED60E96926BC88F5002FDBAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,7 +242,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ED60E96726BC88F5002FDBAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED60E96E26BC88F5002FDBAF /* GetAPetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED60E97126BC88F5002FDBAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 185CB1F723C78CE6009F7571 /* GetAPet */;
+			targetProxy = ED60E97026BC88F5002FDBAF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		185CB20123C78CE6009F7571 /* Main.storyboard */ = {
@@ -346,6 +424,44 @@
 			};
 			name = Release;
 		};
+		ED60E97226BC88F5002FDBAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GetAPetUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ape.GetAPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetAPet;
+			};
+			name = Debug;
+		};
+		ED60E97326BC88F5002FDBAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GetAPetUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ape.GetAPetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GetAPet;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,6 +479,15 @@
 			buildConfigurations = (
 				185CB20D23C78CE8009F7571 /* Debug */,
 				185CB20E23C78CE8009F7571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED60E97426BC88F5002FDBAF /* Build configuration list for PBXNativeTarget "GetAPetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED60E97226BC88F5002FDBAF /* Debug */,
+				ED60E97326BC88F5002FDBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
