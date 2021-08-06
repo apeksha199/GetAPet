@@ -104,10 +104,34 @@
 		ED60E96C26BC88F5002FDBAF /* GetAPetUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */,
+				ED60E97826BDE010002FDBAF /* Utils */,
+				ED60E97726BDDFFB002FDBAF /* PageOject */,
+				ED60E97626BDDFCE002FDBAF /* Tests */,
 				ED60E96F26BC88F5002FDBAF /* Info.plist */,
 			);
 			path = GetAPetUITests;
+			sourceTree = "<group>";
+		};
+		ED60E97626BDDFCE002FDBAF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		ED60E97726BDDFFB002FDBAF /* PageOject */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PageOject;
+			sourceTree = "<group>";
+		};
+		ED60E97826BDE010002FDBAF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

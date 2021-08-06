@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/peter/Softdev/RayWenderlich/Author/RWWhatsNewInCollectionView/GetAPet/GetAPet.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
