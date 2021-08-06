@@ -17,6 +17,7 @@
 		D0D461E0251F6B02004AD6F6 /* PetExplorerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D461DF251F6B02004AD6F6 /* PetExplorerViewController.swift */; };
 		D0D461E32523C9C8004AD6F6 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D461E22523C9C8004AD6F6 /* PetDetailViewController.swift */; };
 		ED60E96E26BC88F5002FDBAF /* GetAPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */; };
+		ED60E97A26BDE108002FDBAF /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED60E97926BDE108002FDBAF /* BaseTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		ED60E96B26BC88F5002FDBAF /* GetAPetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetAPetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAPetUITests.swift; sourceTree = "<group>"; };
 		ED60E96F26BC88F5002FDBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED60E97926BDE108002FDBAF /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 		ED60E97726BDDFFB002FDBAF /* PageOject */ = {
 			isa = PBXGroup;
 			children = (
+				ED60E97926BDE108002FDBAF /* BaseTest.swift */,
 			);
 			path = PageOject;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED60E97A26BDE108002FDBAF /* BaseTest.swift in Sources */,
 				ED60E96E26BC88F5002FDBAF /* GetAPetUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
