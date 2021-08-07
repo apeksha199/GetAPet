@@ -18,6 +18,7 @@
 		D0D461E32523C9C8004AD6F6 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D461E22523C9C8004AD6F6 /* PetDetailViewController.swift */; };
 		ED60E96E26BC88F5002FDBAF /* GetAPetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */; };
 		ED60E97A26BDE108002FDBAF /* BaseTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED60E97926BDE108002FDBAF /* BaseTest.swift */; };
+		ED60E97C26BDEF3D002FDBAF /* GetAPetPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED60E97B26BDEF3D002FDBAF /* GetAPetPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		ED60E96D26BC88F5002FDBAF /* GetAPetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAPetUITests.swift; sourceTree = "<group>"; };
 		ED60E96F26BC88F5002FDBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED60E97926BDE108002FDBAF /* BaseTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTest.swift; sourceTree = "<group>"; };
+		ED60E97B26BDEF3D002FDBAF /* GetAPetPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAPetPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				ED60E97926BDE108002FDBAF /* BaseTest.swift */,
+				ED60E97B26BDEF3D002FDBAF /* GetAPetPage.swift */,
 			);
 			path = PageOject;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED60E97C26BDEF3D002FDBAF /* GetAPetPage.swift in Sources */,
 				ED60E97A26BDE108002FDBAF /* BaseTest.swift in Sources */,
 				ED60E96E26BC88F5002FDBAF /* GetAPetUITests.swift in Sources */,
 			);
