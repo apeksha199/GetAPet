@@ -34,6 +34,7 @@ import XCTest
 
 class GetAPetUITests: XCTestCase {
   let app = XCUIApplication()
+  
     override func setUpWithError() throws {
       super.setUp()
              continueAfterFailure = false
@@ -41,16 +42,16 @@ class GetAPetUITests: XCTestCase {
     }
 
     override func tearDown()  {
-      super.tearDown()
+    
     }
 
-    func testExample() {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
-        app.launch()
-      XCTAssertTrue(app.staticTexts["Pet Explorer"].exists)
-      app.buttons["Birds"].otherElements.containing(.staticText, identifier:"Birds").element.tap()
-      app.cells["Happy, 4 years old"].otherElements.containing(.staticText, identifier:"Happy").element.tap()
-      app.buttons["adopt"].tap()
+    func testCriticalPath() {
+       GetAPetPage()
+        .tapBird()
+        .tapHappy()
+        .tapBackButton()
+        .tapSwifty()
+        .tapAdopt()
+        .tapYourPetSwifty()
     }
 }

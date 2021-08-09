@@ -34,17 +34,57 @@ import XCTest
 
 public class GetAPetPage: BaseTest {
   override var rootElement: XCUIElement {
-    return app.staticTexts["Birds"]
+    return app.buttons["Birds"]
+    return app.staticTexts["Happy, 4 years old"]
+    return app.navigationBars["GetAPet.PetDetailView"]
+    return app.staticTexts["Swifty, 3 years old"]
+    return app.staticTexts["Adopt"]
+    return app.staticTexts["Your pet: Swifty, 3 years old"]
     
   }
   
   //Page Elements
-  lazy var birdsButton = app.staticTexts["Birds"]
+  lazy var birdsButton = app.buttons["Birds"].otherElements.containing(.staticText, identifier:"Birds")
   
-  func tapOne(completion: Completion = nil) -> Self {
+  lazy var happy = app.cells["Happy, 4 years old"].otherElements.containing(.staticText, identifier:"Happy")
+  
+  lazy var backButton = app.navigationBars["GetAPet.PetDetailView"].buttons["Pet Explorer"]
+  
+  lazy var swifty = app.cells["Swifty, 3 years old"].otherElements.containing(.staticText, identifier:"Swifty")
+  
+  lazy var adopt = app.staticTexts["Adopt"]
+  
+  lazy var yourPetSwifty = app.cells["Your pet: Swifty, 3 years old"].otherElements.containing(.staticText, identifier:"Your pet: Swifty")
+  
+  
+  func tapBird(completion: Completion = nil) -> Self {
     log("Tap Birds button")
-    birdsButton.tap()
+    return self
+  }
+    
+    func tapHappy(completion: Completion = nil) -> Self {
+      log("Tap happy button")
+      return self
+  }
+  
+  func tapBackButton(completion: Completion = nil) -> Self {
+    log("Tap back button")
     return self
   }
   
+  func tapSwifty(completion: Completion = nil) -> Self {
+    log("Tap Swifty button")
+    return self
+  }
+  
+  func tapAdopt(completion: Completion = nil) -> Self {
+    log("Tap adopt button")
+    return self
+  }
+  
+  func tapYourPetSwifty(completion: Completion = nil) -> Self {
+    log("Verifying your pet")
+    return self
+  }
 }
+

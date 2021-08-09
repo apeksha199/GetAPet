@@ -48,7 +48,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WXn-Ct-6W0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-135" y="94"/>
+            <point key="canvasLocation" x="9" y="96"/>
         </scene>
         <!--Pet Detail View Controller-->
         <scene sceneID="4Tv-1R-90u">

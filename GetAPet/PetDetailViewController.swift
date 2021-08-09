@@ -32,7 +32,7 @@
 
 import UIKit
 
-protocol PetDetailViewControllerDelegate: class {
+protocol PetDetailViewControllerDelegate: AnyObject {
   func petDetailViewController(_ petDetailViewController: PetDetailViewController, didAdoptPet pet: Pet)
 }
 
