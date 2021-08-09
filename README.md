@@ -2,19 +2,22 @@
 
 ## Requirements and Support
 
-Apple's XCUITest library is only available on iOS simulators and devices that are running iOS 14 or higher.
+Apple's XCUITest library is only available on iOS simulators and devices that are running iOS.
 A Mac computer with macOS 11.5.1 
 Xcode 12.5.1 is required.
 
 ## Real Device Setup
 Automating a real device with XCUITest is considerably more complicated, due to Apple's restrictions around running apps on real devices. Please refer to the XCUITest real device setup doc for instructions.
 
+## Brnach
+ All the tests are present in master branch
+ 
 ## Framework
 I have added POM, which includes BaseTest and Page. 
 I have declared all the elements in Page file and called those elements in main Test. so, in this way its easy to maintain the tests.
 I have added Logger class and defined few methods in Base class. Those methods are being called in Page file.
 
-##Test covered
+## Test covered
 I have added one critical path in the current test. I have defined this critical path based on the main flow of the application. This inclues
   1. Taping on Birds button
   2. Selecting a Pet
